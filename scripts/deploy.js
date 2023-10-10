@@ -8,10 +8,10 @@ const hre = require("hardhat");
 
 async function main() {
   // Deploying the SwissContract
-  const swissContract = await hre.ethers.getContractFactory("SwissContract");
-  const swissContract = await SimpleContract.deploy();
+  const SwissContract = await hre.ethers.getContractFactory("SwissContract");
+  const swissContract = await SwissContract.deploy();
 
-  await swissontract.deployed();
+  await swissContract.deployed();
 
   console.log("SwissContract deployed to:", swissContract.address);
 }
