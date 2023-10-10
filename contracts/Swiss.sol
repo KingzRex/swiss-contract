@@ -3,7 +3,7 @@ pragma solidity ^0.8.9;
 
 contract SwissContract {
     // Private state variable
-    string private data = "default"; // You can change this to a number if you prefer
+    string private data = "default";
 
     // Function to set the state variable
     function setData(string memory _data) public {
